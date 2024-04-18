@@ -4,20 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body{
-            display: flex;
-            justify-content: center;
-            background-color: aquamarine;
-            align-items: center;
-        }
-        a{
-            align-items: ;
-        }
-    </style>
 </head>
 <body>
-    <h1>Ola Mundo</h1>
-
+    {% for i in post %}
+    <h1>{{post.titulo}}</h1>h1>
+    <h2>{{post,texto}}</h2>
+    <h3>{{post,data_criacao}}</h3>
+    {% endfor %} 
 </body>
 </html>
